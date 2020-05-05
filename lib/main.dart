@@ -1,3 +1,4 @@
+import 'package:calc/calculate.dart';
 import 'package:calc/widget/calcpotriat.dart';
 import 'package:calc/widget/callandscape.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +33,7 @@ class _CalculatorState extends State<Calculator> {
   void initState() {
     
     super.initState();
-    _str = '0';
+    _str = Compute.str;
   }
   @override
   
